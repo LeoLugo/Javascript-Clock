@@ -62,6 +62,8 @@ setInterval(function() {
 		minutes = "08"
 	} else if(minutes === 9) {
 		minutes = "09"
+	} else if(minutes === 0) {
+		minutes = "00"
 	}
 
 	if(seconds === 1) {
@@ -82,6 +84,8 @@ setInterval(function() {
 		seconds = "08"
 	} else if(seconds === 9) {
 		seconds = "09"
+	} else if(seconds === 0) {
+		seconds = "00"
 	}
 
 
